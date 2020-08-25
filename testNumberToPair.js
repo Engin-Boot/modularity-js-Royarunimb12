@@ -1,3 +1,4 @@
+const expect = require('chai').expect;
 var GetColorFromPairNumber=require("./GetColorFromPairNumber.js");
 
 function testNumberToPair(number, expectedMajor, expectedMinor) {
