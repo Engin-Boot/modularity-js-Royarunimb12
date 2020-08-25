@@ -1,5 +1,5 @@
-var Major=require("./Colors.js").Major;
-var Minor=require("./Colors.js").Minor;
+var Major=require("./Colors.js").MajorColors;
+var Minor=require("./Colors.js").MinorColors;
 
 function GetColorFromPairNumber(pairNumber) {
     let colorPair = {};
