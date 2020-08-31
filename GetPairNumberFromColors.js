@@ -4,12 +4,12 @@ var MinorColors=require("./Colors.js").MinorColors;
 function GetPairNumberFromColors(majorColor, minorColor) {
     let majorIndex = 0;
     let minorIndex = 0;
-    for(majorIndex = 0; majorIndex < MajorColors.length; majorIndex++) {
+    for(majorIndex = MajorColors.length; majorIndex >= 0; majorIndex--) {
         if(MajorColors[majorIndex] == majorColor) {
             break;
         }
     }
-    for(minorIndex = 0; minorIndex < MinorColors.length; minorIndex++) {
+    for(minorIndex = MinorColors.length; minorIndex >= 0; minorIndex--) {
         if(MinorColors[minorIndex] == minorColor) {
             break;
         }
