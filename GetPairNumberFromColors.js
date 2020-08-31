@@ -2,8 +2,8 @@ var MajorColors=require("./Colors.js").MajorColors;
 var MinorColors=require("./Colors.js").MinorColors;
 
 function GetPairNumberFromColors(majorColor, minorColor) {
-    let majorIndex = 0;
-    let minorIndex = 0;
+    let majorIndex;
+    let minorIndex;
     for(majorIndex = MajorColors.length; majorIndex >= 0; majorIndex--) {
         if(MajorColors[majorIndex] == majorColor) {
             break;
